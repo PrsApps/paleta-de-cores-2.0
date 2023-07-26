@@ -22,9 +22,16 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: var(--background-body);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #585757;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -99,6 +106,9 @@ span {
 
 @media(max-width: 600px) {
 
+  h1 {
+    font-size: 22px;
+  }
   .container {
     width: 98vw;
     justify-content: center;
@@ -107,5 +117,9 @@ span {
 
   .column,.display,.gradient,.input,.btn {
     width: 70px;
+  }
+
+  .input {
+    font-size: 11px;
   }
 }
