@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,51 +8,58 @@
     <script defer src="script.js"></script>
     <title>paleta de cores</title>
 </head>
+
 <body>
 
     <main class="container">
-        
+
         <section class="column">
             <div class="display" style="background: #405743;"><span>#405743</span></div>
-            <div class="gradient"></div>
-            <input class="input-color" type="color" value="#405743">
+            <div class="gradient"
+                style="background:linear-gradient(135deg,rgba(255, 255, 255, 1) 0%,rgba(64, 87, 67, 1) 100%)"></div>
+            <input class="input-color" oninput="atualizarValorTexto(this)" type="color" value="#405743">
             <input class="input" type="text" placeholder="Digite a cor">
             <button class="btn" onclick="change(this)">Gerar</button>
         </section>
 
         <section class="column">
             <div class="display" style="background: #c28338;"><span>#c28338</span></div>
-            <div class="gradient"></div>
-            <input class="input-color" type="color" value="#c28338">
+            <div class="gradient"
+                style="background:linear-gradient(135deg,rgba(255, 255, 255, 1) 0%,rgba(194, 131, 56, 1) 100%)"></div>
+            <input class="input-color" type="color" oninput="atualizarValorTexto(this)" value="#c28338">
             <input class="input" type="text" placeholder="Digite a cor">
             <button class="btn" onclick="change(this)">Gerar</button>
         </section>
 
         <section class="column">
             <div class="display" style="background: #51413e;"><span>#51413e</span></div>
-            <div class="gradient"></div>
-            <input class="input-color" type="color" value="#51413e">
+            <div class="gradient"
+                style="background:linear-gradient(135deg,rgba(255, 255, 255, 1) 0%,rgba(81, 65, 62, 1) 100%)"></div>
+            <input class="input-color" type="color" oninput="atualizarValorTexto(this)" value="#51413e">
             <input class="input" type="text" placeholder="Digite a cor">
             <button class="btn" onclick="change(this)">Gerar</button>
         </section>
 
         <section class="column">
             <div class="display" style="background: #ffeac9;"><span>#ffeac9</span></div>
-            <div class="gradient"></div>
-            <input class="input-color" type="color" value="#ffeac9">
+            <div class="gradient"
+                style="background:linear-gradient(135deg,rgba(255, 255, 255, 1) 0%,rgba(255, 234, 201, 1) 100%)"></div>
+            <input class="input-color" type="color" oninput="atualizarValorTexto(this)" value="#ffeac9">
             <input class="input" type="text" placeholder="Digite a cor">
             <button class="btn" onclick="change(this)">Gerar</button>
         </section>
 
         <section class="column">
             <div class="display" style="background: #152d3f;"><span>#152d3f</span></div>
-            <div class="gradient"></div>
-            <input class="input-color" type="color" value="#152d3f">
+            <div class="gradient"
+                style="background:linear-gradient(135deg,rgba(255, 255, 255, 1) 0%,rgba(21, 45, 63, 1) 100%)"></div>
+            <input class="input-color" type="color" oninput="atualizarValorTexto(this)" value="#152d3f">
             <input class="input" type="text" placeholder="Digite a cor">
             <button class="btn" onclick="change(this)">Gerar</button>
         </section>
-        
+
     </main>
-    
+
 </body>
+
 </html>
