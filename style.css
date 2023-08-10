@@ -119,6 +119,10 @@ span {
     width: 70px;
   }
 
+  .gradiente {
+    height: 70px;
+} 
+
   .input {
     font-size: 11px;
   }
